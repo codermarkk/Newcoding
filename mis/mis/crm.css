@@ -1,0 +1,40 @@
+Body {
+    Font-family: ‘Arial’, sans-serif;
+    Margin: 0;
+    Padding: 0;
+}
+
+Header {
+    Background-color: #3498db;
+    Color: #fff;
+    Text-align: center;
+    Padding: 1em;
+}
+
+Section {
+    Margin: 20px;
+}
+
+.customer-details {
+    Border: 1px solid #ddd;
+    Padding: 10px;
+}
+
+.contacts {
+    List-style-type: none;
+    Padding: 0;
+}
+
+.contacts li {
+    Margin-bottom: 10px;
+}
+
+Footer {
+    Background-color: #34495e;
+    Color: #fff;
+    Text-align: center;
+    Padding: 1em;
+    Position: fixed;
+    Bottom: 0;
+    Width: 100%;
+}

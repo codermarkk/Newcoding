@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Activity Logging</title>
+    <link rel="stylesheet" href="logging.css">
+</head>
+<body>
+
+    <button class="back-button" onclick="goBack()">Back</button>
+
+
+    <header>
+        <h1>User Activity Logging</h1>
+    </header>
+
+    <section>
+        <button onclick="logActivity('User clicked a button')">Click me</button>
+        <button onclick="logActivity('User submitted a form')">Submit form</button>
+
+        <div id="log-container">
+            <h2>Activity Log</h2>
+            <ul id="activity-log"></ul>
+        </div>
+    </section>
+
+    <section class="home-section">
+        <div class="home-content">
+            <i class="fa-solid fa-bars"></i>
+           
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>No. </th>
+                    <th>Date</th>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>Action</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>2023-12-01 9:30 AM</td>
+                    <td>User 1</td>
+                    <td>User</td>
+                    <td>Logged In</td>
+                    <td>User 1</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>2023-12-03 10:30 PM</td>
+                    <td>User 2</td>
+                    <td>User</td>
+                    <td>Update Profile Info.</td>
+                    <td>User 2 </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>2023-12-03 12:30 PM</td>
+                    <td>User 3</td>
+                    <td>User</td>
+                    <td>Logged Out</td>
+                    <td>User 3</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>2023-12-05 7:25 AM</td>
+                    <td>User 4</td>
+                    <td>User</td>
+                    <td>Logged in</td>
+                    <td>User 4</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>2023-12-07 5:00 PM</td>
+                    <td>User 5</td>
+                    <td>User</td>
+                    <td>Check Payroll</td>
+                    <td>User 5 Payroll</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>2023-12-12 10:30 AM</td>
+                    <td>User 6</td>
+                    <td>User</td>
+                    <td>Logged out</td>
+                    <td>User6</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <script>
+        function goBack() {
+          window.history.back();
+        }
+      </script>
+    
+
+</body>
+</html>

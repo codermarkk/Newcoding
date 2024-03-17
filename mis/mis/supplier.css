@@ -1,0 +1,33 @@
+Body {
+    Font-family: ‘Arial’, sans-serif;
+    Margin: 0;
+    Padding: 0;
+}
+
+Header {
+    Background-color: #3498db;
+    Color: #fff;
+    Text-align: center;
+    Padding: 1em;
+}
+
+Section {
+    Margin: 20px;
+}
+
+.supplier-info, .contact-info, .summary-info {
+    Border: 1px solid #ddd;
+    Padding: 10px;
+}
+
+Footer {
+    Background-color: #34495e;
+    Color: #fff;
+    Text-align: center;
+    Padding: 1em;
+    Position: fixed;
+    Bottom: 0;
+    Width: 100%;
+    height: 10%;
+}
+

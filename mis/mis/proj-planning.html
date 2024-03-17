@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="proj.css">
+</head>
+<body>
+    <section class="home-section">
+        <div class="home-content">
+            <i class="fa-solid fa-bars"></i>
+            <span class="text">Project Planning and Scheduling</span>
+        </div>
+        <section id="tasks" class="plan">
+            <h1 class="tasks">Tasks List</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Task Name </th>
+                        <th>Start Date</th>
+                        <th>Due Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Task 1</td>
+                        <td>October 1, 2023</td>
+                        <td>November 4, 2023</td>
+                    </tr>
+                    <tr>
+                        <td>Task 2</td>
+                        <td>November 5, 2023</td>
+                        <td>November 25, 2023</td>
+                    </tr>
+                    <tr>
+                        <td>Task 3</td>
+                        <td>December 1, 2023</td>
+                        <td>December 15, 2023</td>
+                    </tr>
+                    <tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="plan">
+            <label for="taskname">Task Name: </label>
+            <input type="text" id="taskname" placeholder="Enter Task Name">
+            <label for="startDate">Start Date: </label>
+            <input type="date" id="startDate">
+            <label for="dueDate">Due Date: </label>
+            <input type="date" id="dueDate">
+            <button onclick="addTask">Add Task</button>
+        </section>
+    </section>
+</body>
+</html>

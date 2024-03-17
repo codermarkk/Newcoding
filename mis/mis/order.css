@@ -1,0 +1,35 @@
+Body {
+    Font-family: ‘Arial’, sans-serif;
+    Margin: 0;
+    Padding: 0;
+}
+
+Header {
+    Background-color: #3498db;
+    Color: #fff;
+    Text-align: center;
+    Padding: 1em;
+}
+
+Section {
+    Margin: 20px;
+}
+
+.order-info, .status-container, .tracking-info {
+    Border: 1px solid #ddd;
+    Padding: 10px;
+}
+
+.footer {
+    Margin-top: 20px;
+}
+
+Footer {
+    Background-color: #34495e;
+    Color: #fff;
+    Text-align: center;
+    Padding: 1em;
+    Position: fixed;
+    Bottom: 0;
+    Width: 100%;
+}

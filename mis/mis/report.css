@@ -1,0 +1,22 @@
+table{
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: lightblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+th, td{
+    padding: 12px;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Arial Narrow';
+    border: 1px solid;
+}
+th{
+    font-family: 'Times New Roman';
+}
+caption{
+    caption-side: top;
+    text-align: center;
+    font-size: 30px;
+}
